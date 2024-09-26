@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import { useState, useEffect } from "react";
 import dars from "../Com/dars";
 import { useSearchParams } from "next/navigation";
 import { ArrowLeft } from "lucide-react";
@@ -8,8 +8,27 @@ import Link from "next/link";
 export default function Page() {
   const searchParams = useSearchParams();
   const index = searchParams.get("index");
-  const singleLecture = dars[index];
 
+  useEffect(() => {
+    const getData = async () => {
+      try {
+        const result = await dars[index];
+        singleLecture(result);
+      } catch (error) {
+        setError("Error: " + error.message);
+      }
+    };
+
+    getData();
+  }, []);
+
+  if (error) {
+    return <div>Error: {error}</div>;
+  }
+
+  if (movies.length === 0) {
+    return <div>Loading...</div>;
+  }
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-8">
       <div className="max-w-6xl mx-auto">
