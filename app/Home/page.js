@@ -9,6 +9,8 @@ export default function HomePage() {
       src={`${darsakan}`}
       className="w-full h-60 object-cover rounded-t-lg"
       alt="Lecture poster"
+      width={500}
+      height={300}
     />
   );
 
@@ -22,7 +24,7 @@ export default function HomePage() {
         {dars.map((folder, index) => (
           <Link
             href={{
-              pathname: "/Lecture",
+              pathname: "Lecture",
               query: { index: index },
             }}
             key={index}
