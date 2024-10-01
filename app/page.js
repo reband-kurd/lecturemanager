@@ -1,5 +1,4 @@
 import HomePage from "./Home/page";
-import Navbar from "./Com/NavBar";
 
 export default function Home() {
   return (
