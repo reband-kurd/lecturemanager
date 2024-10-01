@@ -5,6 +5,12 @@ const dars = [
     poster:
       "https://cosmas.org/wp-content/uploads/2024/06/DATA-STRUCTURES-IN-PYTHON-final-doc_page-0001.jpg",
   },
+  {
+    id: "19GYOylQ15M9SaoRLV087iBbu29u_9zT-",
+    title: "liner algebra",
+    poster:
+      "https://rukminim2.flixcart.com/image/850/1000/xif0q/book/w/r/o/linear-algebra-and-its-applications-5th-edition-pearson-original-imags59wrhfcqxhw.jpeg?q=90&crop=false",
+  },
 
   {
     id: "1MEK6kWwK0aSpuWS46r3l-9DlTZNj4hyJ",

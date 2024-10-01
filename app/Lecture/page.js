@@ -22,21 +22,21 @@ function LectureContent({ singleLecture }) {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 p-8">
-      <div className="max-w-6xl mx-auto">
+    <div className="min-h-screen from-blue-50 to-indigo-100 p-8 dark:bg-gray-700">
+      <div className=" mx-auto">
         <Link
           href="/"
-          className="inline-flex items-center text-indigo-600 hover:text-indigo-800 mb-6 transition-colors duration-200"
+          className="dark:text-gray-300 inline-flex items-center text-indigo-600 hover:text-indigo-800 mb-6 transition-colors duration-200"
         >
           <ArrowLeft size={20} className="mr-2" />
           Back to Lecture List
         </Link>
 
-        <h1 className="text-3xl font-bold text-indigo-800 mb-6">
+        <h1 className="text-3xl dark:text-gray-300 font-bold text-indigo-800 mb-6">
           {singleLecture.title}
         </h1>
 
-        <div className="bg-white rounded-lg shadow-lg p-4">
+        <div className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-4">
           <iframe
             src={`https://drive.google.com/embeddedfolderview?id=${singleLecture.id}#grid`}
             width="100%"
