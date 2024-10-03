@@ -1,8 +1,7 @@
 import React from "react";
-import dars, { Courses } from "../Com/dars";
+import dars from "../Com/dars";
 import Link from "next/link";
 import { Book } from "lucide-react";
-
 import GoogleDriveSlider from "@/app/Com/mySlider";
 export default function HomePage() {
   const renderIframe = (darsakan) => (
