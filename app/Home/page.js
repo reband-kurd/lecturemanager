@@ -1,26 +1,27 @@
 import React from "react";
-import dars from "../Com/dars";
+import dars, { Courses } from "../Com/dars";
 import Link from "next/link";
 import { Book } from "lucide-react";
-
+import Course from "@/app/Com/Courses";
+import GoogleDriveSlider from "@/app/Com/mySlider";
 export default function HomePage() {
   const renderIframe = (darsakan) => (
     <img
       src={`${darsakan}`}
-      className="w-full h-60 object-cover rounded-t-lg"
+      className="w-full h-48 sm:h-64 object-cover"
       alt="Lecture poster"
       width={500}
-      height={300}
+      height={400}
     />
   );
 
   return (
-    <div className="   to-indigo-100 p-8 dark:bg-gray-700">
-      <h1 className="text-4xl font-bold dark:text-gray-300 text-indigo-800 mb-8 text-center">
+    <div className="min-h-screen   to-indigo-100 p-8 dark:bg-gray-700">
+      <GoogleDriveSlider />
+      <h1 className="text-4xl font-bold dark:text-gray-300 text-indigo-800 pt-4 mb-8 text-center">
         CS2 Lecture Materials
       </h1>
-
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="flex flex-row custom-scrollbar overflow-x-auto lg:overflow-x-scroll overflow-y-hidden p-4 justify-start items-center gap-3 lg:gap-4">
         {dars.map((folder, index) => (
           <Link
             href={{
@@ -28,11 +29,11 @@ export default function HomePage() {
               query: { index: index },
             }}
             key={index}
-            className="dark:bg-gray-600 bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 cursor-pointer"
+            className="dark:bg-gray-600  min-w-36 max-w-36 lg:min-w-64 lg:max-w-64 rounded-lg overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:scale-105"
           >
             {renderIframe(folder.poster)}
-            <div className=" p-4">
-              <h2 className="text-xl dark:text-gray-300 font-semibold text-gray-800 mb-2">
+            <div className="p-4">
+              <h2 className="dark:text-gray-200 text-gray-600  text-lg font-semibold mb-2 truncate">
                 {folder.title}
               </h2>
               <div className="flex dark:text-gray-400 items-center text-indigo-600">
@@ -43,6 +44,7 @@ export default function HomePage() {
           </Link>
         ))}
       </div>
+      <Course />
     </div>
   );
 }

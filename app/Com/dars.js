@@ -48,4 +48,36 @@ const dars = [
       "https://www.cengage.com/covers/imageServlet?image_type=LRGFC&catalog=cengage&productISBN13=9780357117811",
   },
 ];
+export const Courses = [
+  {
+    title: "Complete Web Development Course - CodeBeauty",
+    url: "https://www.youtube.com/embed/iVLQeWbgbXs?list=PL43pGnjiVwgTJg7uz8KUGdXRdGKE0W_jN",
+  },
+  {
+    title: "Data Science Course - Quantitative Bytes",
+    url: "https://www.youtube.com/embed/VofMMbD2QtQ?list=PL3WoIG-PLjSv9vFx2dg0BqzDZH_6qzF8-",
+  },
+
+  {
+    title: "Learnit Training Course (Duplicate)",
+    url: "https://www.youtube.com/embed/1XTXv1V3-ag?list=PLoyECfvEFOjZn3kXgpuEqaXge5HoCDvp7",
+  },
+  {
+    title: "Houston Math Prep Course (Duplicate)",
+    url: "https://www.youtube.com/embed/rMtJPn_glcQ?list=PLbYOkEbzW903-ok4jTa5LLwbr2rR9lkjc",
+  },
+  {
+    title: "PiXimperfect Course",
+    url: "https://www.youtube.com/embed/xTzvQkOll2U?list=PLLlSBGLVsEPIFGSGw2zJ2K43V5vxMMMTE",
+  },
+  {
+    title: "Practical Networking Course",
+    url: "https://www.youtube.com/embed/bj-Yfakjllc?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi",
+  },
+  {
+    title: "Jordan Barlow Course",
+    url: "https://www.youtube.com/embed/G8ZfiO0hj5A?list=PLCLbf8d2YbrUMKdKR9QLsTvx4_hwrZeNS",
+  },
+];
+
 export default dars;
