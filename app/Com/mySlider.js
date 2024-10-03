@@ -5,8 +5,7 @@ export default function GoogleDriveSlider() {
   const images = [
     "https://scontent.febl5-1.fna.fbcdn.net/v/t1.6435-9/52771872_442092766531623_4620368393600499712_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=xpvrhSAkMgoQ7kNvgGpRj9E&_nc_ht=scontent.febl5-1.fna&_nc_gid=AccGV5zE8J_Mu9G4BEfwm1-&oh=00_AYAzz03VyQG2rNdWVFcE3NfuWLVb1TJtLKZaPwV5J7RrAg&oe=67261526",
     "https://backend.ethesis.su.edu.krd/Attachment_2022-6-20_1685.jpeg",
-    "https://media.discordapp.net/attachments/1241406719800643736/1291514247175475291/IMG_5016.jpg?ex=67005fdf&is=66ff0e5f&hm=790081bda8100a4141966457c220c9b16b5fca3cdcc204fa07d93bd2cfd4f050&=&format=webp&width=762&height=701",
-    "https://media.discordapp.net/attachments/1241406719800643736/1241408682638577704/IMG_4505.jpg?ex=6700066e&is=66feb4ee&hm=21654d2af8f0215d4b282b022daabcb045c0ed6542b711e0f73b9eda5f551560&=&format=webp&width=935&height=701",
+   
   ];
 
   const [index, setIndex] = useState(0);
