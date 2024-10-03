@@ -16,7 +16,7 @@ export default function HomePage() {
   );
 
   return (
-    <div className="min-h-screen   to-indigo-100 p-8 dark:bg-gray-700">
+    <div className="min-h-screen  to-indigo-100 p-3 dark:bg-gray-700">
       <GoogleDriveSlider />
       <h1 className="text-4xl font-bold dark:text-gray-300 text-indigo-800 pt-4 mb-8 text-center">
         CS2 Lecture Materials
