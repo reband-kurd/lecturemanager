@@ -5,7 +5,6 @@ export default function GoogleDriveSlider() {
   const images = [
     "https://scontent.febl5-1.fna.fbcdn.net/v/t1.6435-9/52771872_442092766531623_4620368393600499712_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=xpvrhSAkMgoQ7kNvgGpRj9E&_nc_ht=scontent.febl5-1.fna&_nc_gid=AccGV5zE8J_Mu9G4BEfwm1-&oh=00_AYAzz03VyQG2rNdWVFcE3NfuWLVb1TJtLKZaPwV5J7RrAg&oe=67261526",
     "https://backend.ethesis.su.edu.krd/Attachment_2022-6-20_1685.jpeg",
-   
   ];
 
   const [index, setIndex] = useState(0);

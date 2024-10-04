@@ -79,5 +79,11 @@ export const Courses = [
     url: "https://www.youtube.com/embed/G8ZfiO0hj5A?list=PLCLbf8d2YbrUMKdKR9QLsTvx4_hwrZeNS",
   },
 ];
+export const initialAssignments = [
+  { id: 1, title: "Lecture 1 - Assignment", completed: false },
+  { id: 2, title: "Lecture 2 - Quiz", completed: false },
+  { id: 3, title: "Lecture 3 - Project Submission", completed: false },
+  { id: 4, title: "Lecture 4 - Homework", completed: false },
+];
 
 export default dars;
