@@ -1,6 +1,4 @@
 import React from "react";
-import Link from "next/link";
-import { Book } from "lucide-react";
 
 export default function Page() {
   return (
