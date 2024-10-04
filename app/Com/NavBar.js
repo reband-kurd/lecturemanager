@@ -15,13 +15,7 @@ const Navbar = () => {
               <h2>Lecture Manager</h2>
             </Link>
           </div>
-          <div className="flex items-center gap-4">
-            <Link
-              href="/about"
-              className="text-xl font-bold text-gray-900 dark:text-white"
-            >
-              <h2>About</h2>
-            </Link>
+          <div className="flex items-center">
             <ThemeToggle />
           </div>
         </div>
