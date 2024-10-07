@@ -3,8 +3,9 @@ import React, { useState, useRef } from "react";
 
 export default function GoogleDriveSlider() {
   const images = [
-    "https://scontent.febl5-1.fna.fbcdn.net/v/t1.6435-9/52771872_442092766531623_4620368393600499712_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=xpvrhSAkMgoQ7kNvgGpRj9E&_nc_ht=scontent.febl5-1.fna&_nc_gid=AccGV5zE8J_Mu9G4BEfwm1-&oh=00_AYAzz03VyQG2rNdWVFcE3NfuWLVb1TJtLKZaPwV5J7RrAg&oe=67261526",
-    "https://backend.ethesis.su.edu.krd/Attachment_2022-6-20_1685.jpeg",
+    "https://www.rebandhamadameen.tech/IMG_1033.jpg",
+    "https://media.discordapp.net/attachments/1241406719800643736/1291514247175475291/IMG_5016.jpg?ex=6704fd1f&is=6703ab9f&hm=ca4ce29f9cd226b869016ec29669d5e45eb2290a6a610ab0d53260e1c0be201f&=&format=webp&width=762&height=701",
+    "https://media.discordapp.net/attachments/1241406719800643736/1292899741356527686/IMG_5643.jpg?ex=67056a37&is=670418b7&hm=ba50f7867470ffdb79ae05d3fcebcec38e796a852cb029c373e2237893285b6f&=&format=webp&width=468&height=701",
   ];
 
   const [index, setIndex] = useState(0);
