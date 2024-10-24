@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Book } from "lucide-react";
 import Course from "@/app/Com/Courses";
 import GoogleDriveSlider from "@/app/Com/mySlider";
-import { Card } from "@/components/ui/card";
+
 export default function HomePage() {
   const renderIframe = (darsakan) => (
     <img
