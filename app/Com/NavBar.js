@@ -1,5 +1,4 @@
 import React from "react";
-import ThemeToggle from "./TogleTheme";
 import Link from "next/link";
 
 const Navbar = () => {
