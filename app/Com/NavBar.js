@@ -22,7 +22,6 @@ const Navbar = () => {
             >
               <h2>About</h2>
             </Link>
-            <ThemeToggle />
           </div>
         </div>
       </div>

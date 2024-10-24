@@ -21,6 +21,15 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "app/Com/Appsidebar.jsx",
+    "app/layout.js",
+    "app/page.js",
+    "app/layout.js"
+  ],
   "exclude": ["node_modules"]
 }
